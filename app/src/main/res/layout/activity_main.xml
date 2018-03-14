@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.edu.ittepic.laboratorio1_sharedpreferences.MainActivity">
+    <EditText android:id="@+id/nomCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Cliente"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/cel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Direcion del Evento"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fecha del evento"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/horas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hora inicial y Hora final"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/numplatillos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero de platillos"
+        android:textSize="12dp"/>
+    <EditText android:id="@+id/numpostres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Postres"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manteleria"
+        android:textSize="12dp"/>
+    <CheckBox android:id="@+id/basica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basica"
+        android:textSize="12dp"
+        android:checked="true"/>
+    <CheckBox android:id="@+id/lujo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lujo"
+        android:textSize="12dp"
+        android:checked="false"/>
+    <TextView android:id="@+id/etiquetaseek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="12dp"/>
+    <SeekBar android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="12dp"/>
+        <Button android:id="@+id/btnget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET"
+            android:textSize="12dp"/>
+    </LinearLayout>
+</LinearLayout>
